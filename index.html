@@ -32,9 +32,47 @@
     <button class="js-button button" data-id="2">DMM.make AKIBA</button>
     <button class="js-button button" data-id="3">21cafe</button>
     <button class="js-button button" data-id="4">TECH LAB PAAK</button>
-    <button class="js-button button" data-id="5">dots.</button>
+    <!--<button class="js-button button" data-id="5">dots.</button>-->
 </div>
 
+    <div id="js-about" class="about-box on">
+    <svg id="svg-about">
+        <defs>
+            <clipPath id="clip">
+                <circle id="circle-about" r="0" fill="#b2d452"></circle>
+            </clipPath>
+        </defs>
+    </svg>
+    <div class="about-inner" style=" -webkit-clip-path: url(#clip); clip-path: url(#clip);">
+        <h1 class="logo">
+            <img src="./images/logo.png" alt=""/>
+        </h1>
+        <section class="about about01">
+            <h2 class="title">ヒト、つながる、人々の街</h2>
+            <div class="about-body">
+                <p class="text">さまざまな技術を駆使して未来を創造していくエンジニアたち。<br>
+                    そんなエンジニアがみんな集まれば、<br>
+                    きっと、世界はもっと楽しく、もっと便利になっていくはず。</p>
+                <p class="text">集まれ、繋がれ、エンジニア。
+                    みんなのチカラが、街をもっと発展させていく。</p>
+            </div>
+        </section>
+        <section class="about about02">
+            <h2 class="title">リアルなエンジニアの盛り上がりと連動して発展する世界</h2>
+            <div class="about-body">
+                <p class="text">エンジニアが集まるスペース(コワーキングやイベント会場)に人感センサーを設置して、<br>
+                    各スペースの盛り上がりや人の出入りをセンサリングし、<br>
+                    リアルタイムにWeb上に反映させています。</p>
+                <p class="text">スペースに人がやってくるのに合わせて、フィールドに人が降り立ちます。<br>
+                    集まった人々のチカラで発展していく街をお楽しみください。</p>
+            </div>
+        </section>
+    </div>
+</div>
+    <a href="#" id="js-button-about" class="button button-about">
+        <span class="button-text">ABOUT</span>
+        <span class="button-bg"></span>
+    </a>
     <div class="inner">
         <div class="field">
     <ul class="field-list">
@@ -138,33 +176,19 @@
         <li class="field-item tower">
             <img class="item item01" src="images/tower.png" alt="" />
         </li>
-
     </ul>
     <div class="ground">
         <img src="images/stage_front.png" alt="" class="field-gnd front" />
         <img src="images/under_ground.png" alt="" class="field-gnd side" />
         <div id="pechiko-list"></div>
     </div>
-
+    <div class="field-name">
+        <h1 class="text">HITBIT <span class="yellow">ELECTORIC</span> STATION</h1>
+    </div>
 </div>
 
         <ul class="board-list">
     <li class="board-item board-item-01">
-      
-
-      <!--<div class="ningen drop1"></div>-->
-        <!--<div class="ningen drop2"></div>-->
-      <!--<div class="ningen walk1"></div>-->
-      <!--<div class="ningen walk2"></div>-->
-
-        <div class="board-name">
-            
-            <div class="board-bg">
-                <span class="skew-block large right"></span>
-                <span class="skew-block small center"></span>
-                <span class="skew-block small left"></span>
-            </div>
-        </div>
         <div class="board">
             <img src="images/board_desk.png" alt="" class="item desk" />
             <img src="images/board_sofa_01.png" alt="" class="item sofa_01" />
@@ -233,7 +257,6 @@
         </svg>
     </li>
 </ul>
-
     </div>
 </div>
 
